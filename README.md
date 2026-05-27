@@ -6,7 +6,7 @@
 
 ## 🚀 Live Interactive Dashboard
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mumbai-real-estate-dashboard-uqstz6vnolghwwekhiynpr.streamlit.app/)
+[![View Dashboard](https://img.shields.io/badge/View_Live_Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://mumbai-real-estate-dashboard-uqstz6vnolghwwekhiynpr.streamlit.app/)
 
 👆 **Click the badge above to open the fully interactive dashboard** — filter by city, BHK type, furnishing status and price range. All charts update in real-time.
 
