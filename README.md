@@ -1,8 +1,14 @@
 # 🏙️ Mumbai Real Estate Price Intelligence Dashboard
 
-**An end-to-end Data Analytics project — from raw web-scraped data to an enterprise-grade, interactive Power BI intelligence tool.**
+**An end-to-end Data Analytics project — from raw web-scraped data to a live, interactive web application.**
 
 > Built to answer one question: *Where in Mumbai do you actually get value for your money?*
+
+## 🚀 Live Interactive Dashboard
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mumbai-real-estate-dashboard-uqstz6vnolghwwekhiynpr.streamlit.app/)
+
+👆 **Click the badge above to open the fully interactive dashboard** — filter by city, BHK type, furnishing status and price range. All charts update in real-time.
 
 ---
 
@@ -29,12 +35,12 @@
 
 | Tool | Purpose |
 |------|---------|
-| Python 3.12 | Data collection, cleaning, EDA |
+| Python 3.12 | Data collection, cleaning, EDA, Web App |
 | Playwright | JavaScript-rendered web scraping |
 | Pandas + Regex | Data cleaning & feature engineering |
 | MySQL | Structured data storage (2 tables: raw → cleaned) |
-| Matplotlib + Seaborn | Exploratory Data Analysis (8 charts) |
-| Power BI Desktop | Interactive 3-page dashboard |
+| Streamlit + Plotly | Live, interactive cloud deployment |
+| Power BI Desktop | Initial dashboard prototyping |
 | DAX | Custom measures & calculated columns |
 | Git + GitHub | Version control & portfolio hosting |
 
@@ -49,5 +55,5 @@ Phase 1: Data Collection
 Phase 2: Data Cleaning & EDA
   └── Pandas cleaning → Regex extraction (BHK, locality) → 3.0x IQR outlier removal → cleaned_listings → 8 EDA charts
 
-Phase 3: Power BI Dashboard
-  └── CSV import → DAX measures → 3-page interactive dashboard → PDF/PNG export
+Phase 3: Interactive Deployment
+  └── Pandas DataFrame → Streamlit Web App → Plotly Visualizations → Streamlit Community Cloud
